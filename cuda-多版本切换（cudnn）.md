@@ -4,7 +4,7 @@
 cd /usr/local
 ```
 
-![image-20230828140808121](/home/peter/.config/Typora/typora-user-images/image-20230828140808121.png)
+![image-20230828140808121](/STUDY_content/image/image-20230828140808121.png)
 
 **2.查看当前版本**
 
