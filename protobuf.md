@@ -6,7 +6,7 @@
 sudo apt-get install protobuf-compiler # 查看库版本
 ```
 
-![image-20230829105314054](/home/peter/.config/Typora/typora-user-images/image-20230829105314054.png)
+![image-20230829105314054](/image/image-20230829105314054.png)
 
 **找到对应的protobuf版本编译安装**
 
