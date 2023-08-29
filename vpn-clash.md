@@ -18,4 +18,3 @@
 
 ![image-20230810152815512](/image/image-20230810152815512.png)
 
-![img_v2_19f1d45f-9d23-41d5-9c18-0a5493236acg](/home/peter/.config/LarkShell/sdk_storage/854d2a1b289da1d74b63ed57bc5e80be/resources/images/img_v2_19f1d45f-9d23-41d5-9c18-0a5493236acg.jpg)
