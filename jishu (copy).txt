@@ -1,0 +1,69 @@
+ sudo gedit ~/.bashrc(环境变量)
+ watch -n 0.1 -d nvidia-smi   
+ 
+ -i https://pypi.tuna.tsinghua.edu.cn/simple
+ 
+sudo rm -rf /usr/local/cuda
+sudo ln -s /usr/local/cuda-10.0 /usr/local/cuda
+
+
+
+mkdir -p  / zidingyi/src
+
+cd  zidingyi
+
+
+catkin_make -DPYTHON_EXECUTABLE=/usr/bin/python3     (anaconda)
+or  catkin_make
+
+
+roscore
+
+source ./devel/setup.bash
+rosrun  hello helloc
+
+
+
+2023 7/19  ros vscode launch调试通过 String 
+
+
+
+
+docker文件地址 /var/lib/docker/containers/xxxxxxxxxxxxx(容器号)
+
+
+docker 挂载外部物理地址
+sudo docker run -it --name="tensorrt8" --gpus=all -v /media/peter/data/code:/media  hakuyyf/tensorrtx:trt8.2_cuda11.2 /bin/bash
+
+docker run -it --name="tensorrt8" --gpus=all -v /media/peter/data/code/AlphaPose_TRT:/media  mister5ive/tensorrt7.2.1_cuda11.1_opencv3.4.6_onnx2trt: 0.0.1  /bin/bash
+docker run -d --name="ubuntu2004cuda118"  --gpus all -it -v  /media/peter/data/code:/media nvidia/cuda:11.8.0-devel-ubuntu22.04 /bin/bash
+docker run -d --name="ubuntu2004cuda111"  --gpus all -it -v  /media/peter/data/code:/media nvidia/cuda:11.1.1-devel-ubuntu20.04 /bin/bash
+cuda 多版本共存/切换
+
+
+mqtt传图片（变大）sudo systemctl start emqx
+
+
+
+
+apt-get -y --force-yes install yasm ffmpeg
+
+
+
+export LD_LIBRARY_PATH=/opt/tensorrt/TensorRT-8.6.1.6/lib:$LD_LIBRARY_PATH
+
+
+cp cudnn/include/cudnn*.h /usr/local/cuda/include
+cp cudnn/lib/libcudnn* /usr/local/cuda/lib64
+chmod a+r /usr/local/cuda/include/cudnn*.h  /usr/local/cuda/lib64/libcudnn*
+
+
+
+apt-get install ffmpeg libsm6 libxext6  -y(ImportError: libGL.so.1: cannot open shared object file: No such file or directory)
+
+
+
+
+
+AT_CHECK 在 torch 1.5 中已弃用，将所有“AT_CHECK”替换为“TORCH_CHECK”
+
